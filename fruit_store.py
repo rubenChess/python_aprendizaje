@@ -37,8 +37,12 @@ Paso a paso
    "Naranja":{"Inventario": 100, "Precio": 30}
   }
 
-  def mostrar_inventario():
-    pass
+  def mostrar_inventario(inventario_frutas):
+      for fruta in inventario_frutas:
+        print(
+                 f"Fruta: {fruta} - Inventario: {inventario_frutas[fruta]['Inventario']} - "
+                 f"Precio por kilogramo: ${inventario_frutas[fruta]['Precio']}"
+             )
 
   def registrar_pedido():
     pass
