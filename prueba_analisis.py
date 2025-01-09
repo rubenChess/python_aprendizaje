@@ -11,8 +11,8 @@ def sumar_lista():
     print(f"\nLa suma total de los números de la lista es: {contador}\n")
     promedio_numeros(contador, aux)  # Llamar con los parámetros correctos
 
-def promedio_numeros(x, y):
-    promedio = x / y
+def promedio_numeros(suma_total , cantidad_numeros):
+    promedio = suma_total , cantidad_numeros
     print(f"El promedio de la lista de números es: {promedio}\n")
 
 def lista_pares_encontrados():
