@@ -37,19 +37,19 @@ Paso a paso
    "Naranja":{"Inventario": 100, "Precio": 30}
   }
 
-  def mostrar_inventario(self):
+  def mostrar_inventario():
     pass
 
-  def registrar_pedido(self):
+  def registrar_pedido():
     pass
 
-  def registrar_cantidades(self):
+  def registrar_cantidades():
     pass
 
-  def calcular_total(self):
+  def calcular_total():
     pass
 
-  def procesar_pedido(self):
+  def procesar_pedido():
     pass
 
 # Crear un objeto de tipo fruta
