@@ -10,5 +10,16 @@ def sumar_lista_numeros():
         suma_de_cada_numero_lista = suma_de_cada_numero_lista + tomar_cada_numero_lista
         print(f"La suma de la lista en la iteración #{contador_iteraciones} es de = {suma_de_cada_numero_lista}")
         contador_iteraciones = contador_iteraciones + 1
+    promedio_de_suma_lista_numeros(suma_de_cada_numero_lista, contador_iteraciones)
+
+
+def promedio_de_suma_lista_numeros(suma_total_lista, cantidad_numeros_lista):
+	promedio = suma_total_lista/cantidad_numeros_lista
+	print(f"El promedio_de_suma_lista_numeros es = {promedio}")
+
+def filtrando_pares_de_la_lista_numeros():
+	lista_pares_a_guardar = [tomar_cada_numero_lista for tomar_cada_numero_lista in lista_numeros if tomar_cada_numero_lista % 2 == 0]
+    print(f"lista_pares_a_guardar {lista_pares_a_guardar}")
 
 sumar_lista_numeros()
+filtrando_pares_de_la_lista_numeros()
