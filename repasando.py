@@ -18,8 +18,11 @@ def promedio_de_suma_lista_numeros(suma_total_lista, cantidad_numeros_lista):
 	print(f"El promedio_de_suma_lista_numeros es = {promedio}")
 
 def filtrando_pares_de_la_lista_numeros():
-	lista_pares_a_guardar = [tomar_cada_numero_lista for tomar_cada_numero_lista in lista_numeros if tomar_cada_numero_lista % 2 == 0]
-    print(f"lista_pares_a_guardarx {lista_pares_a_guardar}")
+    lista_pares_a_guardar = [numero for numero in lista_numeros if numero % 2 == 0]
+    print(f"Lista de números pares filtrados: {lista_pares_a_guardar}")
+
+
 
 sumar_lista_numeros()
 filtrando_pares_de_la_lista_numeros()
+    
